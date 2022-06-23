@@ -7,20 +7,11 @@
   html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
+  scroll-behavior: smooth; 
   }
 
-    <a href="#profile">profile</a>
-    <a href="#summary">summary</a>
-    <a href="#skills">skills</a>
-    <a href="#courses">courses</a>
-    <a href="#project">project</a>
-    <a href="#education">education</a>
-    <a href="#language">language</a>
- 
-    html {
-    scroll-behavior: smooth; 
-  }
-
+    
+   
   .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -30,14 +21,12 @@
     margin: 0px;
 }
 .body{
-    margin: 0px;
-    padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
-  .body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-
+  
   body {
     display: flex;
     flex-direction: column;
