@@ -1,0 +1,28 @@
+@media (min-width:0px) and (max-width:390px) {
+    .logo {
+    
+    text-align:left;
+    }
+    img.photo-logo {
+    
+        width:30px;
+    }
+}
+
+
+
+
+.hamburger{
+
+display: inline-block;
+width: 26px;
+height: 16px;
+}
+
+.hamburger-line{
+
+    background-color: white;
+    border-radius: 1px;
+    height: 4px;
+    width: 100%;
+}

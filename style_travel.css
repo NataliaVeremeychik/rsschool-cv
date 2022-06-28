@@ -1,10 +1,569 @@
-html{
 
-    font-size: 10px;
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
 }
-body{
+
+
+h1 {
+    color: #ffffff;
+    margin: 32px 0 35px 0;
+    width: 100px;
+
+}
+
+
+h2 {
+
+    color: #F2785C;
+}
+
+h3 {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #0D606F;
+}
+
+h4 {
+
+    color: #0D606F;
+}
+
+h5 {
+margin-top: 0;
+    color: #0D606F;
+}
+
+
+.title2 {
+    width: 100%;
+    text-align: center;
+
+}
+
+
+body {
+    padding: 0;
+
+}
+
+
+
+.header {
+    background-color: #F2785C;
+    opacity: 0.7;
+    padding: 25px 0 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+
+}
+
+
+.wrapper_header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+
+.logo {
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    transition: .5s;
+    font-family: Red Hat Text, sans-serif;
+    line-height: 16px;
+
+
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 0 21px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #000000;
+}
+
+.button_color {
+    font-family: Red Hat Text, sans-serif;
+    padding: 10px 20px;
+    background-color: #0D606F;
+    border-radius: 10px;
+    border: none;
+    width: 103px;
+    height: 41px;
+    line-height: 2.2rem;
     font-size: 1.6rem;
-    font-family: 'Aleo', Poppins, Robboto, serif;
+    color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    cursor: pointer;
+}
+
+.button_color:hover {
+    color: #0D606F;
+    background-color: white;
+}
+
+
+.wrapper_preview {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.preview {
+    width: 100%;
+    height: 765px;
+    background: url("../rsschool-cv/assets/img_travel/Preview_main_picture_action.jpg") center no-repeat;
+    margin: -97px 0 0 0;
+
+}
+
+
+.preview_content {
+
+    height: 765px;
+    padding: 122px 0 380px 0;
+
+}
+
+.preview_title {
+    width: 842px;
+
+}
+
+.preview_text_undertitle {
+
+    font-family: Aleo, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ffffff;
+
+}
+
+.search {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 0;
+    border-radius: 16px;
+    width: 892px;
+    background: rgba(255, 255, 255, 0.7);
+    border: none
+}
+
+input .search_button {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.destination_button_action{
+    display: flex;
+    justify-content: center;
+
+}
+
+.search_button {
+ font-family: Red Hat Text, sans-serif;
+    padding: 10px 32px;
+    background-color: #0D606F;
+    border-radius: 10px;
+    border: none;
+    z-index: 2;
+    position: absolute;
+    width: 228px;
+    height: 59px;
+    line-height: 3.2rem;
+    font-size: 2.4rem;
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.search_button:hover {
+    color: #0D606F;
+}
+
+.preview_search_content {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.preview_button {
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+form {
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+input[type="text"]::-webkit-input-placeholder {
+
+
+    padding-left: 32px;
+
+    font-family: Aleo, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 29px;
+    font-weight: 400;
+    color: #F2785C;
 
 
 }
+
+.imput, search_button {
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #F15B42;
+    cursor: pointer;
+}
+
+
+.tool {
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+
+}
+
+.tool_icon_img {
+
+    padding: 0px 70px;
+}
+
+.tool_icon_img1 {
+
+    padding-left: 125px;
+}
+
+
+.slider_main_element{
+
+    width: 100%;
+}
+
+.destination_slider{
+
+    width: 100%;
+    margin: 20px auto;
+    padding: 30px 50px;
+    position: relative;
+
+}
+
+.destination_slider_li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+}
+    
+    
+.slider_element{
+
+
+    width: 100%;
+    transition: opacity 1s ease-in;
+    opacity: 0;
+    position: absolute;
+     z-index: 2;
+    left: 0;
+    top: 0;
+    display: block;
+}
+
+
+.destination_button {
+
+    display: flex;
+    align-content: center;
+    background-color: #0D606F;
+    font-family: Red Hat Text, sans-serif;
+    border-radius: 10px;
+    border: none;
+    padding: 13px 0px 13px 41px;
+    /* width: 228px; */
+    /* height: 59px; */
+    cursor: pointer;
+}
+.button_ico_text:hover {
+    color: #0D606F;
+    background-color: white;
+  }
+
+.search_button:hover {
+    color: #0D606F;
+    background-color: white;
+}
+
+.button_ico_text {
+    padding: 5px 50px;
+    line-height: 3.2rem;
+    font-size: 2.4rem;
+    color: #ffffff;
+    background-image: url(../rsschool-cv/assets/icons_travel/Steps_buttom_arrow-right.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+
+}
+
+
+
+.stories_media {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.media_object {
+    margin-right: 1rem;
+}
+
+.media_body {
+    flex: 1;
+    padding: 0 30px;
+}
+
+.media-heading {
+    margin: 0 0 .5em;
+}
+
+.stories {
+    width: 100%;
+    background: url('../rsschool-cv/assets/img_travel/Stories_Background_Rectangle_33.jpg') center no-repeat;
+    height: 100%;
+    }
+
+.stories_background_color {
+    padding-bottom: 150px;
+    padding-top: 150px;
+    background-color: #ffffff;
+    opacity: 0.7;
+    width: 100%;
+}
+
+
+.tool_icon_img {
+    margin-right: 20px;
+}
+
+.nav-link_line {
+    color: #0D606F;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: solid;
+
+}
+
+.media_description {
+
+    font-size: 20px;
+    color: #0D606F;
+
+}
+
+.stories_button {
+    text-align: center;
+    font-family: Red Hat Text sans-serif;
+    padding: 10px 32px;
+    background-color: #0D606F;
+    border-radius: 10px;
+    border: none;
+
+    width: 228px;
+    height: 59px;
+    line-height: 3.2rem;
+    font-size: 2.4rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.stories_button:hover {
+    color: #1a7a8b;
+}
+
+
+.wrapper .footer_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.footer {
+
+    background: url('../rsschool-cv/assets/img_travel/Stories_Background_Rectangle_33.jpg') center no-repeat;
+    padding: 0%;
+
+}
+
+
+.footer_text {
+
+    font-weight: 500;
+    line-height: 2.1rem;
+    font-size: 1.6rem;
+    color: #ffffff;
+}
+
+.footer_text {
+
+    margin-right: 350px;
+}
+
+.footer-content{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.footer-ico {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.footer-link{
+    padding-right: 10px;
+}
+
+/*Mobile*/
+
+@media (min-width: 0px) and (max-width: 390px) {
+    .logo {
+
+        text-align: left;
+    }
+
+    img.photo-logo {
+
+        width: 30px;
+    }
+
+    .header_nav {
+
+        display: none;
+    }
+
+    .preview_title {
+
+        display: none;
+
+    }
+
+    .preview_text_undertitle {
+
+        display: none;
+
+    }
+
+    .header {
+        opacity: 100%;
+    }
+
+    .destination_country {
+
+        display: none;
+    }
+
+    .destination_country1 {
+
+
+        width: 135%;
+        border-radius: 16px;
+
+    }
+
+    .preview {
+
+        width: 100%;
+        height: 251px;
+    }
+
+
+    .media_description {
+
+        font-size: 9px;
+    }
+
+    .media_object {
+
+        width: 155px;
+        height: 130px;
+    }
+
+    .tool_icon_img {
+
+        width: 70px;
+        height: 70px;
+
+    }
+
+
+    .footer-ico {
+
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .footer_text {
+
+        display: none;
+    }
+
+}
+  
+   
+
+
